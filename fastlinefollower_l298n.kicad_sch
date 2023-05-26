@@ -1713,7 +1713,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 689aa2da-465c-4526-b083-3d385e3baa53)
   )
-  (label "PWM_2" (at 106.68 64.77 0) (fields_autoplaced)
+  (label "PWM_1" (at 106.68 64.77 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 710aad8a-8fd6-4d22-b1ca-f96f081ce894)
   )
@@ -1729,7 +1729,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8afa537c-2281-458b-9eec-f85ace740527)
   )
-  (label "PWM_1" (at 106.68 62.23 0) (fields_autoplaced)
+  (label "PWM_2" (at 106.68 62.23 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8e6c0da1-a126-480e-9a21-e37d4d74f2cc)
   )
@@ -1803,7 +1803,7 @@
     )
     (pin "1" (uuid d68cdd6c-3f92-4574-b69e-46f9ef7a24f7))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "#PWR012") (unit 1)
         )
@@ -1857,7 +1857,7 @@
     (pin "8" (uuid 227823a7-78cb-4899-980c-d603dc755065))
     (pin "9" (uuid 870ba509-ba69-41b0-8a4b-e3a1d2ce4481))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "A1") (unit 1)
         )
@@ -1889,7 +1889,7 @@
     (pin "1" (uuid b72e0f85-6009-42d6-9326-5a8f19261fa7))
     (pin "2" (uuid 613aa381-a810-42a9-95a9-1277ddf9c83c))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "D2") (unit 1)
         )
@@ -1914,7 +1914,7 @@
     )
     (pin "1" (uuid 0d814665-d740-4fc3-8826-b63c32297a46))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "#PWR014") (unit 1)
         )
@@ -1940,7 +1940,7 @@
     (pin "1" (uuid 501c710b-541e-4514-81f5-70bc416c0338))
     (pin "2" (uuid 91f762bd-d3ff-4629-ade3-dd4305854b17))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "R2") (unit 1)
         )
@@ -1972,7 +1972,7 @@
     (pin "1" (uuid cf6e5867-0b96-4f1c-9d98-4d71a4254036))
     (pin "2" (uuid 0f812754-32df-46bd-85c1-11d2a607cd78))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "D6") (unit 1)
         )
@@ -1999,7 +1999,7 @@
     (pin "2" (uuid 5a249989-6d68-4179-9e0a-d95a043b0a18))
     (pin "3" (uuid d6f92809-f62c-488b-ac8a-4b3d99a0e6fe))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "U2") (unit 1)
         )
@@ -2024,7 +2024,7 @@
     )
     (pin "1" (uuid e4285038-8cae-4c28-a961-d36b1255f87a))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "#PWR011") (unit 1)
         )
@@ -2056,7 +2056,7 @@
     (pin "1" (uuid 1b199ce8-a5c2-41f6-8bfe-6df5a7407b52))
     (pin "2" (uuid 4031509a-a76b-4401-9f9b-89d14bee7f41))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "D3") (unit 1)
         )
@@ -2088,7 +2088,7 @@
     (pin "1" (uuid 3069893f-9e50-4c04-bb61-900cc0ad5350))
     (pin "2" (uuid d3d9e5cb-9615-4d87-9b9c-b031cac8a562))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "D7") (unit 1)
         )
@@ -2114,7 +2114,7 @@
     (pin "1" (uuid 2377ef7d-1376-43a3-89da-3742517832d1))
     (pin "2" (uuid 7db15e77-41a8-4769-b8c7-f1778c0be818))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "C4") (unit 1)
         )
@@ -2140,7 +2140,7 @@
     (pin "1" (uuid c7bd2685-a093-4c71-aaaa-b37648c2e74b))
     (pin "2" (uuid d825acb9-c87b-42dd-8c22-e48a21056da1))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "J2") (unit 1)
         )
@@ -2172,7 +2172,7 @@
     (pin "1" (uuid e583eb78-416a-47f4-98ae-eef45e68ea5f))
     (pin "2" (uuid cfd4efea-17b8-4810-bf94-50f33d049b45))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "D4") (unit 1)
         )
@@ -2211,7 +2211,7 @@
     (pin "8" (uuid 478fe45c-6506-4070-8dbe-ff989cff17aa))
     (pin "9" (uuid 11f69093-1782-43a1-bff3-7ae97b6533f0))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "U1") (unit 1)
         )
@@ -2243,7 +2243,7 @@
     (pin "1" (uuid e665824e-934d-46ab-846a-da8b01c5e33b))
     (pin "2" (uuid 204e5eb5-24aa-4022-b85d-0fffeab01943))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "D1") (unit 1)
         )
@@ -2269,7 +2269,7 @@
     (pin "1" (uuid a175141d-8325-4ed1-bb74-0524d85881cb))
     (pin "2" (uuid 150243df-2d97-4ce5-b36f-87da12652eb5))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "SW1") (unit 1)
         )
@@ -2295,7 +2295,7 @@
     (pin "1" (uuid 06bc1e09-cc81-463a-8ef4-3094b58bb2de))
     (pin "2" (uuid ab6a62e3-8e44-4e20-901e-78b57f48f922))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "SW2") (unit 1)
         )
@@ -2320,7 +2320,7 @@
     )
     (pin "1" (uuid ae65690f-7e8c-4bc2-bed2-73b293f698cc))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "#PWR010") (unit 1)
         )
@@ -2345,7 +2345,7 @@
     )
     (pin "1" (uuid 63505891-8732-4c5f-9dcc-7b9165ec02e8))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "#PWR08") (unit 1)
         )
@@ -2370,7 +2370,7 @@
     )
     (pin "1" (uuid b3795949-8f6c-4e37-bd66-31ee9097769a))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "#PWR09") (unit 1)
         )
@@ -2395,7 +2395,7 @@
     )
     (pin "1" (uuid 05f1c889-e433-485a-93ea-3114d5e98983))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "#PWR015") (unit 1)
         )
@@ -2420,7 +2420,7 @@
     )
     (pin "1" (uuid 3a0ab82c-f56f-444b-b57c-f7db7d131b3f))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "#PWR02") (unit 1)
         )
@@ -2446,7 +2446,7 @@
     (pin "1" (uuid 8a057205-b235-4651-8ebc-a75af1a5d9dc))
     (pin "2" (uuid 5ec53a71-8b98-47a4-b23d-7bc344b7e941))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "R1") (unit 1)
         )
@@ -2471,7 +2471,7 @@
     )
     (pin "1" (uuid c2af8372-5ca3-4317-966f-7bf46dbd64f2))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "#PWR01") (unit 1)
         )
@@ -2496,7 +2496,7 @@
     )
     (pin "1" (uuid 6f46c45d-04aa-4962-a6bc-5e57057068aa))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "#PWR06") (unit 1)
         )
@@ -2523,7 +2523,7 @@
     (pin "2" (uuid e7332d55-e983-47d4-882b-0ce4a54557c7))
     (pin "3" (uuid 680b6ad9-7b1c-425c-b828-68fcfc28308f))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "Q2") (unit 1)
         )
@@ -2548,7 +2548,7 @@
     )
     (pin "1" (uuid 6870df3a-184c-4777-b12b-deff0e8a7b71))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "#PWR018") (unit 1)
         )
@@ -2580,7 +2580,7 @@
     (pin "1" (uuid 03ff580e-9b80-423e-bf09-91776506e0ea))
     (pin "2" (uuid 0a044243-aded-474f-b63b-a2f2f520fb35))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "D5") (unit 1)
         )
@@ -2606,7 +2606,7 @@
     (pin "1" (uuid 81d46952-3d67-47ad-983f-523eb1fd4a33))
     (pin "2" (uuid 5f0cb60e-34b4-47c3-8352-fc5d2b935d2f))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "C1") (unit 1)
         )
@@ -2632,7 +2632,7 @@
     (pin "1" (uuid 6d27955a-5f73-457b-bab2-7fbcb39198e3))
     (pin "2" (uuid 39c7f8e1-c177-4bbf-b1f8-cd71d18c29a9))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "C2") (unit 1)
         )
@@ -2666,7 +2666,7 @@
     (pin "8" (uuid 8c891af6-f1e0-406f-bd86-d06b132dd742))
     (pin "9" (uuid a1ea42d3-dc40-48db-915b-ba0fe63d7fb6))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "J1") (unit 1)
         )
@@ -2692,7 +2692,7 @@
     (pin "1" (uuid dd75c201-e6d9-4cad-8597-ac494acde4e9))
     (pin "2" (uuid 6df217ae-774f-4566-a105-2f0d5aec1ece))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "J3") (unit 1)
         )
@@ -2717,7 +2717,7 @@
     )
     (pin "1" (uuid 5d66a61a-5cdf-4574-886c-5ed2b68f843c))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "#PWR05") (unit 1)
         )
@@ -2742,7 +2742,7 @@
     )
     (pin "1" (uuid 7f8af16f-955d-4d89-862b-1acb25bf1450))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "#PWR017") (unit 1)
         )
@@ -2767,7 +2767,7 @@
     )
     (pin "1" (uuid a149bb23-e6b7-46f1-9586-5d85949d0860))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "#PWR016") (unit 1)
         )
@@ -2799,7 +2799,7 @@
     (pin "1" (uuid 5b3d3679-2d3e-4e15-9908-a288c9cbd6f9))
     (pin "2" (uuid f08572a1-17fe-47a3-b982-6fe1e5fd2427))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "D8") (unit 1)
         )
@@ -2824,7 +2824,7 @@
     )
     (pin "1" (uuid 9fa51553-b37b-42ae-8eb2-8c2259f04770))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "#PWR04") (unit 1)
         )
@@ -2849,7 +2849,7 @@
     )
     (pin "1" (uuid 6a061e82-629e-496e-a48b-7aa5ad743088))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "#PWR03") (unit 1)
         )
@@ -2874,7 +2874,7 @@
     )
     (pin "1" (uuid 45f24c20-025d-400e-9365-92990587d7f3))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "#PWR013") (unit 1)
         )
@@ -2899,7 +2899,7 @@
     )
     (pin "1" (uuid 1c8b2fe7-71af-42d0-bf0a-9713a584c120))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "#PWR020") (unit 1)
         )
@@ -2925,7 +2925,7 @@
     (pin "1" (uuid f94f6a79-dc4b-4585-b8ee-fae94d8f56c3))
     (pin "2" (uuid 87a3fee9-96fe-41ed-8419-feade126d231))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "C3") (unit 1)
         )
@@ -2952,7 +2952,7 @@
     (pin "2" (uuid 85a278db-0478-4095-a129-067aa101f276))
     (pin "3" (uuid e89fba0c-3945-4b38-995a-e9c626902a12))
     (instances
-      (project "fastlinefollower"
+      (project "fastlinefollower_l298n"
         (path "/12d22a33-b5ed-48ef-8dcf-cecf4d5020b2"
           (reference "Q1") (unit 1)
         )
