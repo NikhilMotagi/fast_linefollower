@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|68610001|119437501|7b7cfedb-e154-4e72-85d0-c4403c2b3e4d|f39602d4-5968-4343-8511-0893fab54ef1",
+        "courtyards_overlap|68610001|119437501|f39602d4-5968-4343-8511-0893fab54ef1|7b7cfedb-e154-4e72-85d0-c4403c2b3e4d",
+        "courtyards_overlap|90740001|118937501|0ceb5eca-064e-40c6-9625-60c51395ebc1|f39602d4-5968-4343-8511-0893fab54ef1",
+        "courtyards_overlap|90740001|118937501|f39602d4-5968-4343-8511-0893fab54ef1|0ceb5eca-064e-40c6-9625-60c51395ebc1"
+      ],
       "meta": {
         "version": 2
       },
@@ -472,7 +477,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "${KICAD_USER_TEMPLATE_DIR}/draic sheet.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
