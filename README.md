@@ -21,11 +21,10 @@ This autonomous robot is designed to accurately follow a defined black line on a
 
 | PCB Top View  | PCB Bottom View |
 | -------- | ------- |
-| <img src = "attachment/fastlinefollower_tbfng_v2_1_2.png" height = 300> | <img src = "attachment/fastlinefollower_tbfng_v2_1_1.png" height = 300> |
+| <img src = "attachment/fastlinefollower_tbfng_v2_1_2.png" height = 20%> | <img src = "attachment/fastlinefollower_tbfng_v2_1_1.png" height = 20%> |
 
 - Assembled render
   <img src = "attachment/fastlinefollower_tbfng_v2_1_3.png">
--IRL
-
-  |<img src = "attachment/WhatsApp Image 2024-11-20 at 12.56.31 PM.jpeg" height = 500>|  <img src = "attachment/WhatsApp Image 2024-11-20 at 12.56.32 PM (1).jpeg" height = 500>|
+- IRL
+  |<img src = "attachment/WhatsApp Image 2024-11-20 at 12.56.31 PM.jpeg" height = 20%>|  <img src = "attachment/WhatsApp Image 2024-11-20 at 12.56.32 PM (1).jpeg" height = 20%>|
   | ----------| -------------|
