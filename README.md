@@ -25,7 +25,7 @@ This autonomous robot is designed to accurately follow a defined black line on a
 
 - Assembled render
   <img src = "attachment/fastlinefollower_tbfng_v2_1_3.png">
-
 -IRL
-<img src = "attachment/WhatsApp Image 2024-11-20 at 12.56.31 PM.jpeg">
-<img src = "attachment/WhatsApp Image 2024-11-20 at 12.56.32 PM (1).jpeg">
+
+  |<img src = "attachment/WhatsApp Image 2024-11-20 at 12.56.31 PM.jpeg" height = 500>|  <img src = "attachment/WhatsApp Image 2024-11-20 at 12.56.32 PM (1).jpeg" height = 500>|
+  | ----------| -------------|
